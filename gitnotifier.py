@@ -6,7 +6,7 @@ import subprocess
 
 def check_for_commits():
     # Set the API endpoint URL and repository information
-	url = 'https://api.github.com/repos/forsyth47/Animepahe-TGBot/commits'
+	url = 'https://api.github.com/repos/nero-bc/Animepahe-TGBot/commits'
     
     # Set the headers to include your GitHub username and personal access token
 	headers = {'Authorization': os.environ['send-commit-msg-token']}
