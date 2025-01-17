@@ -4,9 +4,9 @@ import json
 from telegram import *
 from telegram.ext import *
 
-admin_username = 'stupidboi69'
+admin_username = 'Stupidboi69'
 apiurl = 'https://animepahe.ru'
-botkey = os.environ['6105757517:AAHj93U8Sdx0ZNNasO2ZXL16jGk0fZ9BVyo']
+botkey = os.environ['5945099510:AAEYtbw9XhAbvekbIwD8Fpbqu5KnIFX-NlI']
 
 def createjsoninfo(update):
   cache_dir = os.path.join("data", "UserData")
